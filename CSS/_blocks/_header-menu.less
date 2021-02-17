@@ -1,0 +1,57 @@
+// main: ..//style.less
+
+.header-menu {
+    width: 100%;
+    -webkit-box-shadow: 4px 30px 27px -7px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 4px 30px 27px -7px rgba(0, 0, 0, 0.31);
+    box-shadow: 4px 30px 27px -7px rgba(0, 0, 0, 0.31);
+    padding: 15px 0;
+
+    .nav {
+        .nav__list {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+       
+
+            a {
+                text-decoration: none;
+            }
+
+            .nav__link {
+                color: @black;
+                text-transform: uppercase;
+                font-family: inherit;
+                font-family: "GothamProBold";
+                font-size: 14px;
+                padding: 0 1.5rem;
+            }
+
+            .search {
+                background-color: #f4f4f4;
+                border: none;
+                border-radius: 44px;
+                padding: 15px;
+                width: 250px;
+                outline: none;
+            }
+
+            .dropdown {
+                background-color: @accent;
+                color: @white;
+                width: 150px;
+                border-radius: 44px;
+                padding: 15px 15px;
+
+                .basket {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    color: @white;
+                    font-family: "GothamProLight";
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,69 @@
+// main: ../style.less
+
+.menu-top {
+    margin: 60px 0;
+
+    .menu__list {
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+
+        .menu__link {
+            text-decoration: none;
+            color: @black;
+            font-family: "GothamProRegular";
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+.page {
+    .intro {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .intro__start {
+            display: flex;
+            width: 50%;
+        }
+
+        .intro__end {
+            width: 50%;
+
+            h2 {
+                font-size: 30px;
+
+                strong {
+                    font-family: "GothamProBold";
+                    text-transform: uppercase;
+                }
+            }
+
+            .intro__stars {
+                margin: 30px 0;
+                display: flex;
+
+                .intro__star {
+                    font-size: 40px;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #FFE897;
+                    }
+                }
+            }
+
+            .intro__desc {
+                p {
+                    
+                    font-size: 19px;
+                    margin: 20px 0;
+                }
+            }
+        }
+    }
+}
